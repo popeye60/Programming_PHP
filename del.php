@@ -39,8 +39,12 @@ include ('condb.php');
 
 </head>
 <body>
-<h1>Delete Page</h1>
-<h2> <a href="index.php">หนัาหลัก</a> <a href="add.php">เพิ่มข้อมูล</a>    <a href="search.php">ค้นหาข้อมูล</a>    <a href="edit.php">แก้ไขข้อมูล</a>    <a href="del.php">ลบข้อมูล</a></h2>
+<h1>ลบข้อมูล</h1>
+<h2> <a href="index.php">หนัาหลัก</a> 
+<a href="add.php">เพิ่มข้อมูล</a>    
+<a href="search.php">ค้นหาข้อมูล</a>    
+<a href="edit.php">แก้ไขข้อมูล</a>    
+<a href="del.php">ลบข้อมูล</a></h2>
 
 <form action="del.php">
     <table>

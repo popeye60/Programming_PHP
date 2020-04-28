@@ -44,8 +44,12 @@
 
 </head>
 <body>
-<h1>Edit Page</h1>
-<h2> <a href="index.php">หนัาหลัก</a> <a href="add.php">เพิ่มข้อมูล</a>    <a href="search.php">ค้นหาข้อมูล</a>    <a href="edit.php">แก้ไขข้อมูล</a>    <a href="del.php">ลบข้อมูล</a></h2>
+<h1>แก้ไขข้อมูล</h1>
+<h2> <a href="index.php">หนัาหลัก</a> 
+<a href="add.php">เพิ่มข้อมูล</a>    
+<a href="search.php">ค้นหาข้อมูล</a>    
+<a href="edit.php">แก้ไขข้อมูล</a>    
+<a href="del.php">ลบข้อมูล</a></h2>
 
 <form action="edit.php">
     <table>
@@ -104,13 +108,10 @@
                         <?php }
                         elseif($type=='3'){?>
                             <option  value="1">อาหารคาว</option>-->
-                                                <option  value="2">อาหารหวาน</option>
+                            <option  value="2">อาหารหวาน</option>
 
                         <?php }?>
-<!---->
-<!--                    <option  value="1">อาหารคาว</option>-->
-<!--                    <option  value="2">อาหารหวาน</option>-->
-<!--                    <option value="3">อาหารว่าง</option>-->
+
 <?php }?>
                 </select>
             </td>

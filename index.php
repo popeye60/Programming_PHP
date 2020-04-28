@@ -22,7 +22,7 @@
 
 </head>
 <body>
-<h1>Main Page</h1>
+<h1>หน้าหลัก</h1>
 <h2> <a href="add.php">เพิ่มข้อมูล</a>    <a href="search.php">ค้นหาข้อมูล</a>    <a href="edit.php">แก้ไขข้อมูล</a>    <a href="del.php">ลบข้อมูล</a></h2>
 <table border=1 width="600px">
     <thead>

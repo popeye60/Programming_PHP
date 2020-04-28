@@ -1,7 +1,7 @@
 
 
 <?php
-$con= mysqli_connect("localhost","root","","restaurant") or die("Error: " . mysqli_error($con));
+$con= mysqli_connect("127.0.0.1","root","root","restaurant") or die("Error: " . mysqli_error($con));
 mysqli_query($con, "SET NAMES 'utf8' ");
 error_reporting( error_reporting() & ~E_NOTICE );
 date_default_timezone_set('Asia/Bangkok');

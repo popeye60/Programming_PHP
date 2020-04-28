@@ -19,8 +19,12 @@
     ?>
 </head>
 <body>
-<h1>Search Page</h1>
-<h2> <a href="index.php">หนัาหลัก</a> <a href="add.php">เพิ่มข้อมูล</a><a href="search.php">ค้นหาข้อมูล</a>    <a href="edit.php">แก้ไขข้อมูล</a>    <a href="del.php">ลบข้อมูล</a></h2>
+<h1>ค้นหาข้อมูล</h1>
+<h2> <a href="index.php">หนัาหลัก</a> 
+<a href="add.php">เพิ่มข้อมูล</a>
+<a href="search.php">ค้นหาข้อมูล</a>    
+<a href="edit.php">แก้ไขข้อมูล</a>    
+<a href="del.php">ลบข้อมูล</a></h2>
 
 <form action="search.php" method="get">
     <table>

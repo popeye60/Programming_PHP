@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.16, for macos10.14 (x86_64)
 --
--- Host: localhost    Database: restaurant
+-- Host: 127.0.0.1    Database: restaurant
 -- ------------------------------------------------------
 -- Server version	8.0.16
 
@@ -18,7 +18,7 @@
 --
 -- Table structure for table `menu`
 --
-
+use restaurant;
 DROP TABLE IF EXISTS `menu`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
@@ -27,6 +27,7 @@ CREATE TABLE `menu` (
   `menu_name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `menu_type` int(2) NOT NULL,
   `menu_price` int(4) DEFAULT NULL,
+  
   PRIMARY KEY (`menu_id`),
   UNIQUE KEY `menu_id_UNIQUE` (`menu_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
